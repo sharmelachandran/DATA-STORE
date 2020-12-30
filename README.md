@@ -4,7 +4,8 @@ This project is built in Netbens. I hope it works well in eclipse also.
 
 Changes needed while you execute this project:
 
-1) change path variable's location according to your pc (src\data\store\DataStore.java  line: 26).
+1) Change path variable's location according to your pc. This is to create a file where data-store has to store values.
+(src\data\store\DataStore.java  line: 26).
 
 2)If suppose while executing any error comes about JSON library means do the following steps:
     -> Using the below link download simple json JAR FILE. 
