@@ -235,6 +235,7 @@ public class DataStore {
 						long livedtime=diff/1000;
 						if(livedtime>timetolive){
 							System.out.println("Sorry this key-value pair is Already Dead(Time to live is finished)\n");
+							pw.println(currentline);
 						}else{
 							flag=1;
 						}
